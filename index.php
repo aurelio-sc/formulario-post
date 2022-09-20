@@ -18,6 +18,8 @@
 
     <label for="email">E-MAIL</label>
     <input type="email" name="email"><br>
+
+    <button type="submit">ENVIAR</button>
   </form>
 </body>
 
