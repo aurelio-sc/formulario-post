@@ -12,16 +12,16 @@
   <h1>Exmeplo de formulário com validação</h1>
   <span>*Campos obrigatórios.</span> <br><br>
   <form action="index.php" method="POST">
-    <label for="nome">NOME:*</label>
+    <label for="nome">NOME*:</label>
     <input type="text" name="nome"><br><br>
 
-    <label for="senha">SENHA:*</label>
+    <label for="senha">SENHA*:</label>
     <input type="text" name="senha"><br><br>
 
-    <label for="email">E-MAIL:*</label>
+    <label for="email">E-MAIL*:</label>
     <input type="text" name="email"><br><br>
 
-    <label for="genero">GÊNERO:*</label>
+    <label for="genero">GÊNERO*:</label>
     <input type="radio" name="genero" value="masculino">Masculino
     <input type="radio" name="genero" value="feminino">Feminino
     <input type="radio" name="genero" value="outro">Outro <br><br>
