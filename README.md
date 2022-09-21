@@ -9,4 +9,5 @@
 <p>A exibição das informações na tela só ocorrerá se todas as validações forem satisfeitas.</p>
 <p>Não foi feita estilização do formulário com CSS, porque foge do objetivo do projeto.</p>
 
-![formulario](https://user-images.githubusercontent.com/95449811/191506680-1a7cf911-d97f-4f75-a2da-983ae0b0ae88.jpg)
+
+![formulario](https://user-images.githubusercontent.com/95449811/191507779-1cf3af11-4e11-4d90-8998-99a51daa9b74.jpg)
