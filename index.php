@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <h1>Exmeplo de formulário com validação</h1>
+  <h1>Exemplo de formulário com validação</h1>
   <span>*Campos obrigatórios.</span> <br><br>
   <form action="index.php" method="POST">
     <label for="nome">NOME*:</label>
