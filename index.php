@@ -37,13 +37,16 @@
     } ?>
 
   <!-- VALIDAÇÃO DO FORMULÁRIO -->
-  <?php if (empty($_POST['nome']) || strlen($_POST['nome']) < 3 || strlen($_POST['nome']) > 100) { ?>
+  <?php if (empty($_POST['nome']) || strlen($_POST['nome']) < 3 || strlen($_POST['nome']) > 100) {
+      unset($_POST['nome']) ?>
   <p>Por favor insira um nome válido.</p>
   <?php } ?>
-  <?php if (empty($_POST['senha']) || strlen($_POST['senha']) < 3 || strlen($_POST['senha']) > 16) { ?>
+  <?php if (empty($_POST['senha']) || strlen($_POST['senha']) < 3 || strlen($_POST['senha']) > 16) {
+      unset($_POST['senha']) ?>
   <p>Por favor insira uma senha de 3 a 16 caracteres.</p>
   <?php } ?>
-  <?php if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) { ?>
+  <?php if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+      unset($_POST['email']) ?>
   <p>Por favor insira um e-mail válido.</p>
   <?php } ?>
   <?php if ($genero != 'masculino' && $genero != 'feminino' && $genero != 'outro') {
